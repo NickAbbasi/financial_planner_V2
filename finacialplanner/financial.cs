@@ -13,7 +13,7 @@
         public int num { get; set; }
         private double rate { get; set; }
 
-
+        //this is where the program decides whether to give a negitive return or a positive return
         public double calculate_rate (int num)
         {
             if (num <2)
@@ -23,7 +23,7 @@
 
             if (num > 1)
             {
-                rate = 0.00588;
+                rate = 0.009;
             }
             return rate;
         }
