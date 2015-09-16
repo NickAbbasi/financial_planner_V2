@@ -23,6 +23,7 @@
 
             if (num > 1)
             {
+                //had to raise this number to get the avearge higher
                 rate = 0.009;
             }
             return rate;
