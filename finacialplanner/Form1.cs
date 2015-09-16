@@ -54,7 +54,7 @@ namespace finacialplanner
             {
                 financial_calc.yearly_return = 0;
                 financial_calc.m = 1;
-                //starting loop for months
+                //starting loop for months 1 through 12
                 while (financial_calc.m <= 12)
                 {
                     
